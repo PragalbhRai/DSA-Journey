@@ -1,3 +1,4 @@
+// If an element is found to be 0 in a matrix set its row and columns to be 0 
 #include<bits/stdc++.h>
 using namespace std;
 void set_zero(vector<vector <int>> &v){
