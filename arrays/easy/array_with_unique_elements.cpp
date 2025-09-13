@@ -10,5 +10,15 @@ int main(){
         cout<<it<<" ";
         it++;
     }
+    // int count = 0 , j = 1;
+    // for(int i = 0 ; i < v.size(); i++){
+    //     if(v[i] != v[j]){
+    //         count++;
+    //         j++;
+    //     }
+    //     else
+    //         j++;
+    // }
+    // cout<<count;
     return 0;
 }
