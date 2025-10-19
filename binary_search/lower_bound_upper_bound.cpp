@@ -14,9 +14,6 @@ int lower_bound(vector<int>nums,int target){
             ans = mid;
             high = mid-1;
         }
-        else if(nums[mid] < target){
-            high = mid-1;
-        }
         else 
             low = mid+1;
     }
@@ -30,9 +27,6 @@ int upper_bound(vector<int>nums,int target){
         int mid = (low+high)/2;
         if(nums[mid] > target){
             ans = mid;
-            high = mid-1;
-        }
-        else if(nums[mid] < target){
             high = mid-1;
         }
         else 
