@@ -36,3 +36,9 @@ int main()
     cout << ans << endl;
     return 0;
 }
+// if the array contains duplicate element we just need to add this extra if condition right after the first if condition in the while loop
+// if(nums[low] == nums[mid] && nums[high] == nums[mid]){
+//                 low++;
+//                 high--;
+//                 continue;
+//             }
