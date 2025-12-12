@@ -30,3 +30,4 @@ int main()
     cout << ans << endl;
     return 0;
 }
+// to find how many times the array has been rotated we just need to give the index of minimum in the array
